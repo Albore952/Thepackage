@@ -12,7 +12,6 @@ black:
 
 test:
 	@coverage run -m pytest tests/*.py
->>>>>>> 5f77ae081e984562abd8bc59e00d70b001bbde7c
 	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
 
 ftest:
