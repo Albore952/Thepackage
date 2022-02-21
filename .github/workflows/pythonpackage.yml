@@ -11,6 +11,7 @@
 # in order to activate CD to Heroku:
 # - activate the tests in GitHub CI
 # - uncomment the content of the CD paragraph (lines 57-75)
+#comment
 name: Python package
 
 on:
