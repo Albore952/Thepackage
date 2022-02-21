@@ -5,15 +5,6 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-<<<<<<< HEAD
-	@flake8 scripts/* mlproject/*.py
-
-black:
-	@black scripts/* mlproject/*.py
-
-test:
-	@coverage run -m pytest tests/test_*.py
-=======
 	@flake8 scripts/* Thepackage/*.py
 
 black:
@@ -32,13 +23,8 @@ clean:
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
 	@rm -fr build dist
-<<<<<<< HEAD
-	@rm -fr mlproject-*.dist-info
-	@rm -fr mlproject.egg-info
-=======
 	@rm -fr Thepackage-*.dist-info
 	@rm -fr Thepackage.egg-info
->>>>>>> 5f77ae081e984562abd8bc59e00d70b001bbde7c
 
 install:
 	@pip install . -U
